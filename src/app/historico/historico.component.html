@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html class="html">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="body">
+
+      <div class="historico">
+          <table id="table" class="centered highligh">
+              <thead>
+                <tr>
+                    <th id="header">Número de Controle</th>
+                    <th id="header">Equipamento</th>
+                    <th id="header">Manutenção</th>
+                    <th id="header">Data</th>
+                    <th id="header">Status</th>
+                    <th colspan="2" id="header"></th>
+
+                </tr>
+              </thead>
+      
+              <tbody>
+                <td>
+
+                </td>
+
+                <td>
+
+                </td>
+
+                <td>
+                  
+                </td>
+
+                <td>
+                  
+               </td>
+
+               <td>
+                  
+                </td>
+
+                <td>
+                    <a class="modal-trigger" data-target="modal1" (click)="this.abrirDetalhes">
+                        <i class="material-icons">remove_red_eye</i>
+                    </a>
+                </td>
+                <td>
+                    <a class="modal-trigger" data-target="modal2" (click)="this.abrirDetalhes(cardapio.id)">
+                        <i class="material-icons">edit</i>
+                    </a>
+                </td>
+                  
+
+              </tbody>
+          </table>
+
+      </div>
+      
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

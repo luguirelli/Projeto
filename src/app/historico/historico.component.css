@@ -1,0 +1,21 @@
+#table{
+    width: 100%;
+    table-layout: auto;
+    font-size: 14px;
+    font-family: cursive;
+    background-color: rgb(252, 251, 250);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#historico{
+    background: rgb(252, 251, 250);
+    border: 2px solid rgb(222, 243, 255);
+    height: 100px;
+    
+}
+
+#header{
+    text-align: center;
+    border-bottom: 2px solid rgb(151, 187, 245)
+}

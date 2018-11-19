@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html class="html">
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body class="body">
+
+      <div id="areaPesquisa">
+        <div id="pesquisa"><p><b>Pesquise o equipamento:</b></p></div>
+          <input type="text" id="textarea1" class="materialize-textarea" placeholder="Equipamento">
+      </div>
+
+      <div class="equipament">
+          <table id="table" class="centered highligh">
+              <thead>
+                <tr>
+                    <th id="header">Código</th>
+                    <th id="header">Nome</th>
+                    <th id="header">Número de Controle</th>
+                    <th id="header">Disponibilidade</th>
+                    <th colspan="3" id="header"></th>
+
+                </tr>
+              </thead>
+      
+              <tbody>
+                  <td>
+                      1225
+                  </td>
+                  <td>
+                      Incubadora
+                  </td>
+                  <td>
+                    234567
+                  </td>
+                  <td>
+                      Ativo
+                  </td>
+                
+                  <td>
+                      <a class="modal-trigger" data-target="modal1" (click)="this.abrirDetalhes">
+                          <i class="material-icons">remove_red_eye</i>
+                      </a>
+                  </td>
+                  <td>
+                      <a class="modal-trigger" data-target="modal2" (click)="this.abrirDetalhes(cardapio.id)">
+                          <i class="material-icons">edit</i>
+                      </a>
+                  </td>
+                  <td>
+                      <a class="modal-trigger link" data-target="modal6" (click)="this.finalizarCardapio(cardapio.id)">
+                          <i class="material-icons">delete</i>
+                      </a>
+                  </td>
+
+              </tbody>
+          </table>
+
+      </div>
+      
+
+      <a class="waves-effect waves-light btn modal-trigger" id="fundo" data-target="#modal3"><!-- Botão de criação -->
+        Add item
+        <i class="material-icons" id="maisUm" >exposure_plus_1</i>
+    </a> 
+
+    <div id="modal3" class="modal"> 
+        <h4> <i class="material-icons left">add</i>
+            Adicionar item 
+        </h4>
+    <div class="modal-content row">
+        <label class="col s6">    
+            <p id="item"> Item: </p>
+            <input placeholder="Item" >
+        </label>
+        <label class="col s6">
+                <p id="item"> Valor: </p>
+                <input placeholder="Valor" >
+            </label>
+        <label class="col s12">
+            <p id="item"> Descrição: </p>
+            <input placeholder="Descrição">
+        </label>
+        <!-- <label class="col s6">
+            <p id="item"> Código: </p>
+            <input placeholder="Código" [(ngModel)]="this.item.itemCode">
+        </label> -->
+        <label class="col s6">
+            <p id="black">Código:</p>
+            <select class="browser-default">
+                <option value="CHIPS"> Salgado </option>
+                <option value="SODA"> Refrigerante </option>
+                <option value="WEIGHT"> Por massa </option>
+            </select>
+        </label>
+        <!-- <label class="col s6">
+            <p id="item"> Status: </p>
+            <input placeholder="Status" [(ngModel)]="this.item.status">
+        </label> -->
+        <label class="col s6">
+            <p id="black">Status:</p>
+            <select class="browser-default" >
+                <option value="V" >Disponível</option>
+                <option value="I" >Indisponível</option>
+            </select>
+        </label>
+    </div>
+    
+    <div class="modal-footer">
+        <a class="modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
+        <!--<a class="modal-action modal-close waves-effect waves-orange btn-flat modal-trigger" (click)="this.salvarCardapio(cardapioTeste)" data-target="modal5">Salvar</a>-->
+        <a class="modal-action modal-close waves-effect waves-orange btn-flat modal-trigger" (click)="this.salvarCardapio(this.details)" data-target="modal5">Salvar</a>   
+    </div>
+</div>
+
+
+        
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>
+      
+
+
+
+

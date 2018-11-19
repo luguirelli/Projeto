@@ -1,0 +1,100 @@
+/* .slogan{
+    text-align: center;
+}
+.card{
+    margin-top: 10%;
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+.centro{
+    margin: auto;
+    width: 60%;
+}
+#fundo{
+    background-color: forestgreen;
+}
+.link{
+    cursor: pointer;
+}
+.black{
+    color: black;
+}
+.bg-image{
+    background-image: url("tela_fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 893px;
+ }
+ body, html{
+     height: 100%;
+ } */
+/* body{
+background: url("tela_fundo.jpg") no-repeat center center fixed;
+background-size: cover;
+-webkit-background-size: cover
+} */
+
+
+.login-page{
+    width: 310px;
+    height: 530px;
+    padding-top: 20%;
+    margin-bottom: 20px;
+  }
+  
+  .content-page {
+    /* background-color: #00447d; */
+    background-image: url("tela_fundo.jpg");
+    background-repeat: round;
+
+  }
+  .card-panel{
+    box-shadow: 4px 4px 13px 0px #353434;
+    border-radius: 7%;
+  }
+  
+  /* .icone{
+    width: 40%;
+  } */
+  
+  .botton{
+    background: #f77643;
+    width: 60%;
+  }
+  
+  /* label focus color */
+  /* .input-field input:focus + label {
+    color: #f77643;
+  } */
+  
+  /* label underline focus color */
+  /* .input-field input[type=text]:focus {
+    border-bottom: 1px solid #f77643;
+    box-shadow: 0 1px 0 0 #f77643;
+  } */
+  
+  /* icon prefix focus color */
+  /* .input-field .prefix.active {
+    color: #f77643;
+  } */
+  
+  /* label underline focus color */
+  /* .input-field input[type=password]:focus {
+    border-bottom: 1px solid #f77643;
+    box-shadow: 0 1px 0 0 #f77643;
+  } */
+  
+  img{
+      width: 8%;
+  }
+  .footer{
+      text-align: center;
+      margin-top: 25%;
+  }
+  .login-form{
+      line-height: 10%;
+  }
+  .input-field{
+      margin-top: 0;
+  }

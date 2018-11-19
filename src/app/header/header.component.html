@@ -1,0 +1,28 @@
+ <!-- Início do header -->
+ <header class="main-header">
+    <nav id="header" class="navbar navbar-static-top" >
+      <div class="container">
+        <div class="navbar-header">
+            <a [routerLink] = "['/']" class="navbar-brand" id="brand"><b>FastEMag</b></a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <i class="fa fa-bars"></i>
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pull-left" id="links">
+          <ul class="nav navbar-nav">
+              <li><a routerLinkActive="active" [routerLink]="['/about']"> Sobre </a></li>
+              <li><a routerLinkActive="active" [routerLink]="['/equipaments']">Equipamentos</a></li>
+              <li><a routerLinkActive="active" [routerLink]="['/profissionais']">Profissionais</a></li>
+              <li><a routerLinkActive="active" [routerLink]="['/equipamentos/alerta']">Equipamentos em Alerta</a></li>
+              <li><a routerLinkActive="active" [routerLink]="['/proximas/preventivas']">Próximas Preventivas</a></li>
+              <li><a routerLinkActive="active" [routerLink]="['/historico']">Histórico</a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+  
+      </div>
+    </nav>
+    </header>
+    <!-- Fim do header -->

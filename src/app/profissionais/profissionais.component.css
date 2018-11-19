@@ -1,0 +1,74 @@
+.html{
+    height: 100%;
+}
+
+.modal-trigger{
+    cursor: pointer;
+}
+
+
+#table{
+    width: 100%;
+    table-layout: auto;
+    font-size: 14px;
+    font-family: cursive;
+    background-color: rgb(252, 251, 250);
+    text-align: center;
+    margin-top: 50px;
+}
+
+#textarea1{
+    color: rgb(15, 15, 14);
+    border-bottom: 1px solid rgb(207, 230, 236);
+    font-family: cursive;
+    text-align: center;
+    width: min-content;
+    height: min-content;
+    margin-top: 5px;
+}
+
+#pesquisa{
+    color: rgb(108, 163, 180);
+    font-family: cursive;
+    font-size: 14px;
+    width: auto;
+    margin-top: 7px;
+    margin-right: 1px;
+   
+    
+}
+
+#areaPesquisa{
+    border: 2px solid rgb(247, 249, 250);
+    background: rgb(252, 251, 250);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#profissionais{
+    background: rgb(252, 251, 250);
+    border: 2px solid rgb(222, 243, 255);
+    height: 100px;
+    
+}
+
+#header{
+    text-align: center;
+    border-bottom: 2px solid rgb(151, 187, 245)
+}
+
+#fundo{
+    background-color: rgb(65, 153, 194);
+    color: white;
+    font-family: cursive;
+    display: table-footer-group;
+    
+    
+}
+
+#maisUm{
+    color: white;
+    margin-top: 10px;
+}
